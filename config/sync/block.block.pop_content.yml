@@ -1,0 +1,22 @@
+uuid: 45d6d799-fae5-4330-9b0d-3d8f6972a1e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pop
+_core:
+  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
+id: pop_content
+theme: pop
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
