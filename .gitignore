@@ -1,0 +1,30 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore core when managing Drupal codebase with Composer
+# This ensures that core files are not committed, as they should be managed
+# by Composer as a dependency of the project.
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Ignore dependencies that are managed with Composer.
+/vendor/
+
+# Ignore Node.js dependencies.
+/node_modules/
+
+# Ignore IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*.swn
+*.DS_Store

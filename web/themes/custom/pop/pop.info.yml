@@ -1,0 +1,9 @@
+name: pop
+type: theme
+base theme: gin
+description: 'A custom theme for the POP training website.'
+package: Custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9 || ^10
+libraries:
+  - pop/global-styling
