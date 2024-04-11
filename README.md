@@ -1,1 +1,1 @@
-# This is Site to give a readme.
+# This is Site to give a training.
