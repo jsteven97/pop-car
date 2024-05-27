@@ -15,5 +15,5 @@
  - `git clone <repo>`
  - `ddev start`
  - `ddev composer install`
- - `ddev import-db --src db_dump.sql`
-
+ - Please put the db in base project folder `ddev import-db --src db_dump.sql`
+ - `ddev drush uli`
