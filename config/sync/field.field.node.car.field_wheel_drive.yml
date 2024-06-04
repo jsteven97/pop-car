@@ -1,0 +1,23 @@
+uuid: e8498afe-8405-4869-89e2-4df0f452ffa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wheel_drive
+    - node.type.car
+  module:
+    - options
+id: node.car.field_wheel_drive
+field_name: field_wheel_drive
+entity_type: node
+bundle: car
+label: 'Wheel Drive'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 2wd
+default_value_callback: ''
+settings: {  }
+field_type: list_string

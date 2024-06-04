@@ -1,0 +1,23 @@
+uuid: 47ddd17c-7aac-4dd5-9345-20690aae8313
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transmission
+    - node.type.car
+  module:
+    - options
+id: node.car.field_transmission
+field_name: field_transmission
+entity_type: node
+bundle: car
+label: Transmission
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: manual
+default_value_callback: ''
+settings: {  }
+field_type: list_string

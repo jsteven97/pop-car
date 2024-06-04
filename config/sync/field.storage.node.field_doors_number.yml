@@ -1,0 +1,30 @@
+uuid: d3b81f68-8596-4c4a-ba82-5a1f4f3caea9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_doors_number
+field_name: field_doors_number
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: two
+      label: Two
+    -
+      value: fourth
+      label: Fourth
+    -
+      value: fourth_or_more
+      label: 'Fourth or more'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

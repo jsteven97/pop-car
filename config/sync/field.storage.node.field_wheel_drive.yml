@@ -1,0 +1,27 @@
+uuid: c6cfbc04-7db2-405d-9e8a-98626f6b68c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_wheel_drive
+field_name: field_wheel_drive
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 2wd
+      label: 2WD
+    -
+      value: 4wd
+      label: 4WD
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

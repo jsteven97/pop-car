@@ -1,0 +1,21 @@
+uuid: 640dbeaf-49dd-462f-a044-34907d1b68b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doors_number
+    - node.type.car
+  module:
+    - options
+id: node.car.field_doors_number
+field_name: field_doors_number
+entity_type: node
+bundle: car
+label: 'Doors Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

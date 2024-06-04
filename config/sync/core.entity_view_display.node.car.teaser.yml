@@ -1,0 +1,46 @@
+uuid: e7e0f223-97b4-4715-a84b-8088d98d70dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.car.body
+    - field.field.node.car.field_brand
+    - field.field.node.car.field_car_model
+    - field.field.node.car.field_color
+    - field.field.node.car.field_doors_number
+    - field.field.node.car.field_fuel
+    - field.field.node.car.field_transmission
+    - field.field.node.car.field_wheel_drive
+    - field.field.node.car.field_year
+    - node.type.car
+  module:
+    - text
+    - user
+id: node.car.teaser
+targetEntityType: node
+bundle: car
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_brand: true
+  field_car_model: true
+  field_color: true
+  field_doors_number: true
+  field_fuel: true
+  field_transmission: true
+  field_wheel_drive: true
+  field_year: true

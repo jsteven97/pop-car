@@ -1,0 +1,19 @@
+uuid: 3f391c3e-30a1-4776-83a6-1e161c1a476b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_brand
+    - node.type.car
+id: node.car.field_brand
+field_name: field_brand
+entity_type: node
+bundle: car
+label: Brand
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

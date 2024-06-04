@@ -1,0 +1,19 @@
+uuid: 6cb6cfd4-7777-4807-b43a-59d02b704a6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.car
+id: node.car.field_year
+field_name: field_year
+entity_type: node
+bundle: car
+label: Year
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
