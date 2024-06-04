@@ -1,0 +1,96 @@
+uuid: eddc70bd-8928-4f93-a403-a1055d92b96f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.motos.field_ano
+    - field.field.node.motos.field_cilindraje
+    - field.field.node.motos.field_clutch
+    - field.field.node.motos.field_color
+    - field.field.node.motos.field_combustible
+    - field.field.node.motos.field_marca
+    - field.field.node.motos.field_precio
+    - field.field.node.motos.field_tipo
+    - node.type.motos
+  module:
+    - user
+id: node.motos.default
+targetEntityType: node
+bundle: motos
+mode: default
+content:
+  field_ano:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_cilindraje:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_clutch:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_color:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_combustible:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_marca:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_precio:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_tipo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
