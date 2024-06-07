@@ -1,0 +1,19 @@
+uuid: 981a9a82-c8ab-4919-b969-c003af3feb09
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.formulario_contacto
+    - field.storage.block_content.field_correo_electronico
+id: block_content.formulario_contacto.field_correo_electronico
+field_name: field_correo_electronico
+entity_type: block_content
+bundle: formulario_contacto
+label: 'Correo electrónico'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

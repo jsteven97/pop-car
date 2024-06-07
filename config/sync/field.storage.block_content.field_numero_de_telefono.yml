@@ -1,0 +1,20 @@
+uuid: 8855aa01-c901-4c57-b820-638dee7857cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_numero_de_telefono
+field_name: field_numero_de_telefono
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 61cbaee9-2668-4d82-b6c0-6a39db47b763
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.formulario_contacto
+    - field.storage.block_content.field_numero_de_telefono
+id: block_content.formulario_contacto.field_numero_de_telefono
+field_name: field_numero_de_telefono
+entity_type: block_content
+bundle: formulario_contacto
+label: 'Número de teléfono'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

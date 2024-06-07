@@ -1,0 +1,68 @@
+uuid: f9dd6b6d-f7e4-441b-ad7b-70195bedf3bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.formulario_contacto
+    - field.field.block_content.formulario_contacto.body
+    - field.field.block_content.formulario_contacto.field_correo_electronico
+    - field.field.block_content.formulario_contacto.field_fecha_de_nacimiento
+    - field.field.block_content.formulario_contacto.field_nombre
+    - field.field.block_content.formulario_contacto.field_numero_de_telefono
+    - field.field.block_content.formulario_contacto.field_pasatiempos
+  module:
+    - datetime
+    - text
+id: block_content.formulario_contacto.default
+targetEntityType: block_content
+bundle: formulario_contacto
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_correo_electronico:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_fecha_de_nacimiento:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_nombre:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_numero_de_telefono:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pasatiempos:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }
