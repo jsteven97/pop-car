@@ -1,0 +1,21 @@
+uuid: ecfca508-a49e-4551-b229-39f845569e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.formulario_contacto
+    - field.storage.block_content.field_fecha_de_nacimiento
+  module:
+    - datetime
+id: block_content.formulario_contacto.field_fecha_de_nacimiento
+field_name: field_fecha_de_nacimiento
+entity_type: block_content
+bundle: formulario_contacto
+label: 'Fecha de nacimiento'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

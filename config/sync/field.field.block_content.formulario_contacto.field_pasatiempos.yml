@@ -1,0 +1,19 @@
+uuid: 94769724-9719-4ab4-bdcb-01044db00b8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.formulario_contacto
+    - field.storage.block_content.field_pasatiempos
+id: block_content.formulario_contacto.field_pasatiempos
+field_name: field_pasatiempos
+entity_type: block_content
+bundle: formulario_contacto
+label: Pasatiempos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

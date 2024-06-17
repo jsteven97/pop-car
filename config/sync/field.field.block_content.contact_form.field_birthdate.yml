@@ -1,0 +1,21 @@
+uuid: c06d5a7e-162d-4e9b-b3f9-1e02cc46899c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_form
+    - field.storage.block_content.field_birthdate
+  module:
+    - datetime
+id: block_content.contact_form.field_birthdate
+field_name: field_birthdate
+entity_type: block_content
+bundle: contact_form
+label: Birthdate
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
