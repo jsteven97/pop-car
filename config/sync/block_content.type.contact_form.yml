@@ -1,0 +1,8 @@
+uuid: e31e8122-8622-4830-9c60-c56a3671737f
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'Contact form'
+revision: 0
+description: 'This is the block to add the contact information'
