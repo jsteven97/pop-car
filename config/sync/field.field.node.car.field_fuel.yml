@@ -11,7 +11,7 @@ id: node.car.field_fuel
 field_name: field_fuel
 entity_type: node
 bundle: car
-label: Fuel
+label: Combustible
 description: ''
 required: true
 translatable: false

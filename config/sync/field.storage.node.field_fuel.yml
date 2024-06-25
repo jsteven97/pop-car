@@ -13,13 +13,13 @@ settings:
   allowed_values:
     -
       value: electric
-      label: Electric
+      label: Eléctrico
     -
       value: gasoline
-      label: Gasoline
+      label: Gasolina
     -
       value: hybrid
-      label: Hybrid
+      label: Hibrido
     -
       value: diesel
       label: Diesel

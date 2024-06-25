@@ -13,13 +13,13 @@ settings:
   allowed_values:
     -
       value: two
-      label: Two
+      label: Dos
     -
       value: fourth
-      label: Fourth
+      label: Cuatro
     -
       value: fourth_or_more
-      label: 'Fourth or more'
+      label: 'Más de cuatro'
   allowed_values_function: ''
 module: options
 locked: false

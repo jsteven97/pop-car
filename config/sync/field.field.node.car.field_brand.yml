@@ -9,7 +9,7 @@ id: node.car.field_brand
 field_name: field_brand
 entity_type: node
 bundle: car
-label: Brand
+label: Marca
 description: ''
 required: true
 translatable: false

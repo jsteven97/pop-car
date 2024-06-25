@@ -11,7 +11,7 @@ id: node.car.body
 field_name: body
 entity_type: node
 bundle: car
-label: Body
+label: Cuerpo
 description: ''
 required: false
 translatable: true

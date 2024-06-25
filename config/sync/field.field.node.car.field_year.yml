@@ -9,7 +9,7 @@ id: node.car.field_year
 field_name: field_year
 entity_type: node
 bundle: car
-label: Year
+label: Año
 description: ''
 required: true
 translatable: false

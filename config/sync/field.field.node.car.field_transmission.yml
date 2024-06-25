@@ -11,7 +11,7 @@ id: node.car.field_transmission
 field_name: field_transmission
 entity_type: node
 bundle: car
-label: Transmission
+label: Transmisión
 description: ''
 required: true
 translatable: false

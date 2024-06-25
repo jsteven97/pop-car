@@ -16,7 +16,7 @@ settings:
       label: Manual
     -
       value: automatic
-      label: Automatic
+      label: Automatica
   allowed_values_function: ''
 module: options
 locked: false

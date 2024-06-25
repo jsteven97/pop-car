@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: 2wd
-      label: 2WD
+      label: 2x2
     -
       value: 4wd
-      label: 4WD
+      label: 4x4
   allowed_values_function: ''
 module: options
 locked: false

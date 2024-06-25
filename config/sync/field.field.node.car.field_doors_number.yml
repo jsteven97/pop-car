@@ -11,7 +11,7 @@ id: node.car.field_doors_number
 field_name: field_doors_number
 entity_type: node
 bundle: car
-label: 'Doors Number'
+label: Puertas
 description: ''
 required: true
 translatable: false

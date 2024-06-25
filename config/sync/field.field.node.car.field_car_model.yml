@@ -9,7 +9,7 @@ id: node.car.field_car_model
 field_name: field_car_model
 entity_type: node
 bundle: car
-label: 'Car Model'
+label: Modelo
 description: ''
 required: true
 translatable: false
