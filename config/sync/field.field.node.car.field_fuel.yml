@@ -1,0 +1,23 @@
+uuid: 9020b507-aec6-4d48-9ce3-b0092ab827e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fuel
+    - node.type.car
+  module:
+    - options
+id: node.car.field_fuel
+field_name: field_fuel
+entity_type: node
+bundle: car
+label: Combustible
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: gasoline
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: 015951c1-014f-47a9-bb4f-cd35f127affe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_transmission
+field_name: field_transmission
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: manual
+      label: Manual
+    -
+      value: automatic
+      label: Automatica
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,33 @@
+uuid: ab03a5a0-d573-402f-bf23-a662c2c75724
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_fuel
+field_name: field_fuel
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: electric
+      label: Eléctrico
+    -
+      value: gasoline
+      label: Gasolina
+    -
+      value: hybrid
+      label: Hibrido
+    -
+      value: diesel
+      label: Diesel
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
