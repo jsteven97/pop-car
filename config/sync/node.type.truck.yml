@@ -1,0 +1,17 @@
+uuid: 2fea7718-e9a1-4f5b-a2d1-e6d5cd3eeee6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Camión
+type: truck
+description: 'Este contenido se usa para añadir un camión'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,38 @@
+uuid: 2334afdd-20ba-4f78-abee-de8c58c49ffc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.truck.body
+    - field.field.node.truck.field_color
+    - field.field.node.truck.field_fuel
+    - field.field.node.truck.field_truck_brand
+    - field.field.node.truck.field_year
+    - node.type.truck
+  module:
+    - text
+    - user
+id: node.truck.teaser
+targetEntityType: node
+bundle: truck
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_color: true
+  field_fuel: true
+  field_truck_brand: true
+  field_year: true

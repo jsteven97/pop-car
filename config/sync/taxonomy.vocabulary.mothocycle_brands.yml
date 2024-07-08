@@ -1,0 +1,8 @@
+uuid: 1d10bf1a-c8ef-4e95-a626-f67780f33555
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marcas Motos'
+vid: mothocycle_brands
+description: 'La marca de nuestras motos'
+weight: 0

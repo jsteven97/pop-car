@@ -1,0 +1,26 @@
+uuid: ceb79295-e660-4603-b8b1-f04c944e377b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.mothorcycle
+  module:
+    - text
+id: node.mothorcycle.body
+field_name: body
+entity_type: node
+bundle: mothorcycle
+label: 'Descripción de la moto'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

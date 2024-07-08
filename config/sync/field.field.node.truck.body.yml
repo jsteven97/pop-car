@@ -1,0 +1,26 @@
+uuid: 99bd8454-db01-4a9d-b657-385948919ab9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.truck
+  module:
+    - text
+id: node.truck.body
+field_name: body
+entity_type: node
+bundle: truck
+label: 'Descripción del camión'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

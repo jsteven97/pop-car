@@ -1,0 +1,12 @@
+uuid: ffd311a5-2784-48db-89b4-b35a9d029e4e
+langcode: en
+status: true
+dependencies: {  }
+id: webform
+label: webform
+recipients:
+  - webmaster@example.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''
