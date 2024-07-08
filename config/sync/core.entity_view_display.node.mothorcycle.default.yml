@@ -27,7 +27,7 @@ content:
     region: content
   field_cylinder_capacity:
     type: number_integer
-    label: above
+    label: hidden
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -36,7 +36,7 @@ content:
     region: content
   field_motocyle_brand:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
