@@ -1,0 +1,17 @@
+uuid: 4920a540-ff3d-41d9-b993-c85bd97aa429
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Moto
+type: mothorcycle
+description: 'Este contenido se usa para añadir una moto'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

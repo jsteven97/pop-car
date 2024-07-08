@@ -1,0 +1,29 @@
+uuid: 7de62638-8992-41c5-b7e7-2cc546ed0d26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_truck_brand
+    - node.type.truck
+    - taxonomy.vocabulary.truck_brands
+id: node.truck.field_truck_brand
+field_name: field_truck_brand
+entity_type: node
+bundle: truck
+label: 'Marca y modelo'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      truck_brands: truck_brands
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

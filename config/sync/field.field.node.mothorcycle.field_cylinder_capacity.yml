@@ -1,0 +1,23 @@
+uuid: b9db1972-ab12-440c-8ed6-148ab90a10ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cylinder_capacity
+    - node.type.mothorcycle
+id: node.mothorcycle.field_cylinder_capacity
+field_name: field_cylinder_capacity
+entity_type: node
+bundle: mothorcycle
+label: Cilindraje
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

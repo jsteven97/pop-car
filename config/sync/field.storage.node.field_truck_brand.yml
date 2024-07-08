@@ -1,14 +1,16 @@
-uuid: e9c27158-e593-4bba-9ce1-9f698babd79a
+uuid: a05fba96-8fc6-4b11-8650-79c47d8ac7be
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_clutch
-field_name: field_clutch
+    - taxonomy
+id: node.field_truck_brand
+field_name: field_truck_brand
 entity_type: node
-type: boolean
-settings: {  }
+type: entity_reference
+settings:
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1

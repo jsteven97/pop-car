@@ -1,17 +1,16 @@
-uuid: a008c3f0-64b1-41d8-878f-8a17acabdd35
+uuid: 5ab3159d-22b6-494f-b104-bdd9e45593b1
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_tipo
-field_name: field_tipo
+id: node.field_cylinder_capacity
+field_name: field_cylinder_capacity
 entity_type: node
-type: string
+type: integer
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1

@@ -1,0 +1,21 @@
+uuid: a6834c88-7bda-46f9-a746-e9b76a33b420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.mothorcycle
+  module:
+    - options
+id: node.mothorcycle.field_year
+field_name: field_year
+entity_type: node
+bundle: mothorcycle
+label: Año
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

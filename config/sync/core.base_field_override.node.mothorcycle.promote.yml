@@ -1,0 +1,22 @@
+uuid: 45e93b5f-7027-43ab-98ce-2defc4fa3133
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mothorcycle
+id: node.mothorcycle.promote
+field_name: promote
+entity_type: node
+bundle: mothorcycle
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

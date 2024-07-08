@@ -2,7 +2,7 @@ uuid: ba78e5f9-4274-41b0-b222-2818e2c052ab
 langcode: en
 status: true
 dependencies: {  }
-name: Marcas
+name: 'Marcas Vehiculos'
 vid: brands
-description: 'Las marcas de los vehiculos. motos y camiones.'
+description: 'Las marcas de los vehiculos.'
 weight: 0

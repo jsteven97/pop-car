@@ -1,0 +1,23 @@
+uuid: a6b0ef4b-e6df-460a-88ad-aaa44f3452ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fuel
+    - node.type.truck
+  module:
+    - options
+id: node.truck.field_fuel
+field_name: field_fuel
+entity_type: node
+bundle: truck
+label: Combustible
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: gasoline
+default_value_callback: ''
+settings: {  }
+field_type: list_string

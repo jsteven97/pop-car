@@ -1,0 +1,21 @@
+uuid: bf65342e-0913-4543-9b38-b9d8c9c22456
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_color
+    - node.type.mothorcycle
+  module:
+    - options
+id: node.mothorcycle.field_color
+field_name: field_color
+entity_type: node
+bundle: mothorcycle
+label: Color
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

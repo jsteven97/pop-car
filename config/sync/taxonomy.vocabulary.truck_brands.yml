@@ -1,0 +1,8 @@
+uuid: 49a7a3d1-d20e-47c7-8049-65e0b507c429
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marcas Camiones'
+vid: truck_brands
+description: 'La marca de nuestros camiones'
+weight: 0

@@ -1,0 +1,50 @@
+uuid: ea37a175-129f-4b1d-85ef-c0bb94c0aca1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.truck.body
+    - field.field.node.truck.field_color
+    - field.field.node.truck.field_fuel
+    - field.field.node.truck.field_truck_brand
+    - field.field.node.truck.field_year
+    - node.type.truck
+  module:
+    - options
+    - text
+    - user
+id: node.truck.default
+targetEntityType: node
+bundle: truck
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_truck_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_year:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_color: true
+  field_fuel: true

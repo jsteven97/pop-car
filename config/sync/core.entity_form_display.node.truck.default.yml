@@ -1,89 +1,65 @@
-uuid: 4604fd44-a89f-4a7d-904e-884a73a2e235
+uuid: d2e205b3-9e82-4189-9154-33da54b0467d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.motos.field_ano
-    - field.field.node.motos.field_cilindraje
-    - field.field.node.motos.field_clutch
-    - field.field.node.motos.field_color
-    - field.field.node.motos.field_combustible
-    - field.field.node.motos.field_marca
-    - field.field.node.motos.field_precio
-    - field.field.node.motos.field_tipo
-    - node.type.motos
+    - field.field.node.truck.body
+    - field.field.node.truck.field_color
+    - field.field.node.truck.field_fuel
+    - field.field.node.truck.field_truck_brand
+    - field.field.node.truck.field_year
+    - node.type.truck
   module:
     - path
-id: node.motos.default
+    - text
+id: node.truck.default
 targetEntityType: node
-bundle: motos
+bundle: truck
 mode: default
 content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_ano:
-    type: number
-    weight: 124
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_cilindraje:
-    type: number
-    weight: 125
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_clutch:
-    type: boolean_checkbox
-    weight: 126
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
   field_color:
-    type: string_textfield
-    weight: 129
+    type: options_select
+    weight: 8
     region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-  field_combustible:
-    type: string_textfield
+  field_fuel:
+    type: options_select
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_truck_brand:
+    type: entity_reference_autocomplete
     weight: 122
     region: content
     settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_marca:
-    type: string_textfield
-    weight: 123
+  field_year:
+    type: options_select
+    weight: 11
     region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_precio:
-    type: number
-    weight: 128
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_tipo:
-    type: string_textfield
-    weight: 127
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path
