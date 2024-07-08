@@ -1,0 +1,23 @@
+uuid: d947f580-0c23-444b-baaa-c2a34880096d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano
+    - node.type.motos
+id: node.motos.field_ano
+field_name: field_ano
+entity_type: node
+bundle: motos
+label: Año
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

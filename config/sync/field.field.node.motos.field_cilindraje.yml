@@ -1,0 +1,23 @@
+uuid: 8ca35b33-52c3-4c43-97b0-da60d39a61c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cilindraje
+    - node.type.motos
+id: node.motos.field_cilindraje
+field_name: field_cilindraje
+entity_type: node
+bundle: motos
+label: 'Cilindraje '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

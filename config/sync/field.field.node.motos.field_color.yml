@@ -1,0 +1,19 @@
+uuid: 258ad130-4e61-402e-992a-df5575e2002f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_color
+    - node.type.motos
+id: node.motos.field_color
+field_name: field_color
+entity_type: node
+bundle: motos
+label: color
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

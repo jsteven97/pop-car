@@ -1,0 +1,36 @@
+uuid: 496d11ab-382d-48a5-a4ed-2f9e116b5c31
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.motos.field_ano
+    - field.field.node.motos.field_cilindraje
+    - field.field.node.motos.field_clutch
+    - field.field.node.motos.field_color
+    - field.field.node.motos.field_combustible
+    - field.field.node.motos.field_marca
+    - field.field.node.motos.field_precio
+    - field.field.node.motos.field_tipo
+    - node.type.motos
+  module:
+    - user
+id: node.motos.teaser
+targetEntityType: node
+bundle: motos
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ano: true
+  field_cilindraje: true
+  field_clutch: true
+  field_color: true
+  field_combustible: true
+  field_marca: true
+  field_precio: true
+  field_tipo: true
