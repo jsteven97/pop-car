@@ -1,18 +1,39 @@
-uuid: a430293c-421d-40ec-9d46-2e434e952747
+uuid: 714815f2-fab6-4e46-8fa5-1607d954be78
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - options
 id: node.field_color
 field_name: field_color
 entity_type: node
-type: string
+type: list_string
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
-module: core
+  allowed_values:
+    -
+      value: red
+      label: Rojo
+    -
+      value: black
+      label: Negro
+    -
+      value: white
+      label: Blanco
+    -
+      value: blue
+      label: Azul
+    -
+      value: gray
+      label: Gris
+    -
+      value: green
+      label: Verde
+    -
+      value: yellow
+      label: Amarillo
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true

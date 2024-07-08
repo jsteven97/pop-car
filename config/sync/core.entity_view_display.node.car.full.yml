@@ -1,8 +1,9 @@
-uuid: 966ff250-f0a9-4764-aeb3-50d997163641
+uuid: 3c9426d9-b506-4498-bf7e-93183e21321f
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.car.body
     - field.field.node.car.field_brand
     - field.field.node.car.field_color
@@ -17,10 +18,10 @@ dependencies:
     - options
     - text
     - user
-id: node.car.default
+id: node.car.full
 targetEntityType: node
 bundle: car
-mode: default
+mode: full
 content:
   body:
     type: text_default
@@ -37,12 +38,48 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
+  field_color:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_doors_number:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_fuel:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_mileage:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_transmission:
     type: list_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 6
+    region: content
+  field_wheel_drive:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
     region: content
   field_year:
     type: list_default
@@ -56,9 +93,4 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden:
-  field_color: true
-  field_doors_number: true
-  field_fuel: true
-  field_mileage: true
-  field_wheel_drive: true
+hidden: {  }

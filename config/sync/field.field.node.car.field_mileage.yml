@@ -1,21 +1,19 @@
-uuid: 5288e65f-c5d4-494a-9541-47aa0a007e4e
+uuid: eec57856-fbae-4b48-a47f-efbc9596ef87
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_color
+    - field.storage.node.field_mileage
     - node.type.car
-  module:
-    - options
-id: node.car.field_color
-field_name: field_color
+id: node.car.field_mileage
+field_name: field_mileage
 entity_type: node
 bundle: car
-label: Color
+label: Kilometraje
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: string

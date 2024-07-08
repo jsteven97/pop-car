@@ -11,7 +11,7 @@ id: node.car.field_wheel_drive
 field_name: field_wheel_drive
 entity_type: node
 bundle: car
-label: 'Transmisión de las ruedas'
+label: 'Tracción de las ruedas'
 description: ''
 required: true
 translatable: false

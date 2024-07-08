@@ -1,18 +1,81 @@
-uuid: 640aeda1-729d-4fcd-8473-0fe89e04b99a
+uuid: cd101dcf-ede1-4933-934c-aa3eb61b6285
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - options
 id: node.field_year
 field_name: field_year
 entity_type: node
-type: string
+type: list_integer
 settings:
-  max_length: 4
-  case_sensitive: false
-  is_ascii: false
-module: core
+  allowed_values:
+    -
+      value: 2000
+      label: '2000'
+    -
+      value: 2001
+      label: '2001'
+    -
+      value: 2002
+      label: '2002'
+    -
+      value: 2003
+      label: '2003'
+    -
+      value: 2004
+      label: '2004'
+    -
+      value: 2005
+      label: '2005'
+    -
+      value: 2006
+      label: '2006'
+    -
+      value: 2007
+      label: '2007'
+    -
+      value: 2008
+      label: '2008'
+    -
+      value: 2009
+      label: '2009'
+    -
+      value: 2010
+      label: '2010'
+    -
+      value: 2011
+      label: '2011'
+    -
+      value: 2012
+      label: '2012'
+    -
+      value: 2013
+      label: '2013'
+    -
+      value: 2014
+      label: '2014'
+    -
+      value: 2015
+      label: '2015'
+    -
+      value: 2016
+      label: '2016'
+    -
+      value: 2017
+      label: '2017'
+    -
+      value: 2018
+      label: '2018'
+    -
+      value: 2019
+      label: '2019'
+    -
+      value: 2020
+      label: '2020'
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true

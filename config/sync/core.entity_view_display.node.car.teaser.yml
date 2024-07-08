@@ -6,10 +6,10 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.car.body
     - field.field.node.car.field_brand
-    - field.field.node.car.field_car_model
     - field.field.node.car.field_color
     - field.field.node.car.field_doors_number
     - field.field.node.car.field_fuel
+    - field.field.node.car.field_mileage
     - field.field.node.car.field_transmission
     - field.field.node.car.field_wheel_drive
     - field.field.node.car.field_year
@@ -28,19 +28,29 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 101
+    weight: 0
     region: content
-  links:
-    settings: {  }
+  field_brand:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
     third_party_settings: {  }
-    weight: 100
+    weight: 1
+    region: content
+  field_mileage:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden:
-  field_brand: true
-  field_car_model: true
   field_color: true
   field_doors_number: true
   field_fuel: true
   field_transmission: true
   field_wheel_drive: true
   field_year: true
+  links: true
