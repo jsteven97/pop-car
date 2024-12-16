@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.truck.field_year
     - node.type.truck
   module:
+    - options
     - text
     - user
 id: node.truck.teaser
@@ -24,15 +25,24 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
-  links:
+  field_color:
+    type: list_default
+    label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
+    region: content
+  field_truck_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
-  field_color: true
   field_fuel: true
-  field_truck_brand: true
   field_year: true
+  links: true
